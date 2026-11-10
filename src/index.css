@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+@custom-variant rtl (&:where([dir="rtl"], [dir="rtl"] *));
+
+@theme {
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-arabic: 'Cairo', 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+[dir="rtl"] {
+  font-family: 'Cairo', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  letter-spacing: 0px;
+}
+
+/* Custom modern scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(150, 150, 150, 0.25);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(150, 150, 150, 0.45);
+}
+
+/* Subtle dot background for QR preview stage */
+.bg-grid-pattern {
+  background-size: 20px 20px;
+  background-image: radial-gradient(circle, rgba(160, 170, 190, 0.25) 1px, transparent 1px);
+}
+
+.dark .bg-grid-pattern {
+  background-size: 20px 20px;
+  background-image: radial-gradient(circle, rgba(255, 255, 255, 0.08) 1px, transparent 1px);
+}
+
+/* Checkerboard for transparent QR preview */
+.checkerboard {
+  background-color: #ffffff;
+  background-image: linear-gradient(45deg, #f0f0f0 25%, transparent 25%),
+                    linear-gradient(-45deg, #f0f0f0 25%, transparent 25%),
+                    linear-gradient(45deg, transparent 75%, #f0f0f0 75%),
+                    linear-gradient(-45deg, transparent 75%, #f0f0f0 75%);
+  background-size: 16px 16px;
+  background-position: 0 0, 0 8px, 8px -8px, -8px 0px;
+}
+
+.dark .checkerboard {
+  background-color: #1e1e24;
+  background-image: linear-gradient(45deg, #272731 25%, transparent 25%),
+                    linear-gradient(-45deg, #272731 25%, transparent 25%),
+                    linear-gradient(45deg, transparent 75%, #272731 75%),
+                    linear-gradient(-45deg, transparent 75%, #272731 75%);
+  background-size: 16px 16px;
+  background-position: 0 0, 0 8px, 8px -8px, -8px 0px;
+}
+
+/* Subtle glow effects */
+.glow-purple {
+  box-shadow: 0 0 40px -10px rgba(99, 102, 241, 0.3);
+}
+
+.dark .glow-purple {
+  box-shadow: 0 0 50px -10px rgba(129, 140, 248, 0.25);
+}

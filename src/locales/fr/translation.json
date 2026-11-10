@@ -1,0 +1,325 @@
+{
+  "common": {
+    "success": "Succès",
+    "error": "Erreur",
+    "notice": "Information",
+    "required": "*",
+    "clear": "Effacer",
+    "cancel": "Annuler",
+    "confirm": "Confirmer",
+    "done": "Terminé",
+    "close": "Fermer"
+  },
+  "navbar": {
+    "studioBadge": "STUDIO",
+    "subtitle": "Générateur professionnel de codes QR",
+    "generator": "Générateur",
+    "history": "Historique",
+    "guide": "Guide & Conseils",
+    "newQR": "Nouveau QR",
+    "switchThemeLight": "Passer au mode clair",
+    "switchThemeDark": "Passer au mode sombre",
+    "language": "Langue"
+  },
+  "sidebar": {
+    "workspace": "Espace de travail",
+    "generator": "Générateur QR",
+    "generatorDesc": "Créer et styliser des codes",
+    "history": "Historique enregistré",
+    "historyDesc": "Gérer vos créations passées",
+    "guide": "Guide de numérisation",
+    "guideDesc": "Impression et niveaux d'erreur",
+    "privateBadge": "100% Privé & Local",
+    "privateDesc": "Tous les codes QR et identifiants (comme les mots de passe Wi-Fi) sont chiffrés directement dans votre navigateur. Aucune donnée n'est envoyée vers un serveur.",
+    "engineStatus": "Moteur côté client v1.0",
+    "menu": "Menu QRify",
+    "close": "Fermer"
+  },
+  "dashboard": {
+    "title": "Créer un code QR",
+    "subtitle": "Choisissez un type, saisissez vos informations, personnalisez le style et exportez en SVG vectoriel ou PNG haute résolution."
+  },
+  "types": {
+    "url": {
+      "label": "Lien URL / Site web",
+      "shortLabel": "URL",
+      "description": "Ouvrir un site web, une page ou un portfolio en ligne"
+    },
+    "text": {
+      "label": "Texte brut",
+      "shortLabel": "Texte",
+      "description": "Afficher un message texte, un code ou une note"
+    },
+    "email": {
+      "label": "E-mail",
+      "shortLabel": "E-mail",
+      "description": "Pré-rédiger un e-mail avec objet et message"
+    },
+    "phone": {
+      "label": "Appel téléphonique",
+      "shortLabel": "Téléphone",
+      "description": "Déclencher un appel direct dès le scan"
+    },
+    "whatsapp": {
+      "label": "WhatsApp",
+      "shortLabel": "WhatsApp",
+      "description": "Discussion WhatsApp directe avec message pré-rempli"
+    },
+    "wifi": {
+      "label": "Réseau Wi-Fi",
+      "shortLabel": "Wi-Fi",
+      "description": "Connecter instantanément un smartphone sans saisir de mot de passe"
+    },
+    "location": {
+      "label": "Localisation GPS",
+      "shortLabel": "Position",
+      "description": "Ouvrir Google Maps ou des coordonnées GPS sur mobile"
+    },
+    "vcard": {
+      "label": "Carte de contact (vCard)",
+      "shortLabel": "vCard",
+      "description": "Enregistrer des coordonnées complètes dans le carnet d'adresses"
+    }
+  },
+  "tabs": {
+    "contentType": "Type de contenu du code QR",
+    "enterDetails": "1. Saisie des informations",
+    "designStyling": "2. Design & Personnalisation"
+  },
+  "forms": {
+    "url": {
+      "label": "Site web ou URL",
+      "placeholder": "https://exemple.fr/portfolio",
+      "quickExamples": "Exemples rapides :",
+      "testLink": "Tester le lien dans un nouvel onglet"
+    },
+    "text": {
+      "label": "Contenu texte brut",
+      "placeholder": "Saisissez votre note, coupon promotionnel, consigne ou message ici...",
+      "chars": "caractères",
+      "clearTitle": "Effacer le texte",
+      "promoCoupon": "Coupon Promo",
+      "orderReceipt": "Reçu de Commande",
+      "meetingMemo": "Note de Réunion"
+    },
+    "email": {
+      "recipient": "E-mail du destinataire",
+      "recipientPlaceholder": "contact@entreprise.com",
+      "subject": "Objet du message",
+      "subjectPlaceholder": "Demande d'information / Devis",
+      "body": "Corps du message pré-rempli",
+      "bodyPlaceholder": "Bonjour, je souhaiterais obtenir plus de renseignements..."
+    },
+    "phone": {
+      "label": "Numéro de téléphone",
+      "placeholder": "+33 6 12 34 56 78",
+      "prefixes": "Indicatifs pays :",
+      "callNotice": "Lorsqu'une personne scanne ce code avec son appareil photo, son smartphone lui propose d'appeler directement ce numéro."
+    },
+    "whatsapp": {
+      "label": "Numéro WhatsApp (avec indicatif pays)",
+      "placeholder": "33612345678 (Chiffres uniquement, sans le +)",
+      "formatNotice": "Format : Indicatif pays suivi du numéro (ex : 33 pour la France, 1 pour USA, 212 pour le Maroc).",
+      "message": "Message pré-rempli (facultatif)",
+      "messagePlaceholder": "Bonjour ! Je vous contacte suite à votre code QR.",
+      "messageNotice": "Ce message s'affichera directement pré-rempli dans l'application WhatsApp de l'utilisateur."
+    },
+    "wifi": {
+      "ssid": "Nom du réseau (SSID)",
+      "ssidPlaceholder": "ex : Bureau-Invite-5G",
+      "security": "Sécurité / Chiffrement",
+      "wpa": "WPA / WPA2 / WPA3 (Par défaut)",
+      "wep": "WEP (Ancien)",
+      "open": "Aucun (Réseau ouvert)",
+      "password": "Mot de passe réseau",
+      "openPlaceholder": "Réseau ouvert (aucun mot de passe)",
+      "showPassword": "Voir le mot de passe",
+      "hidePassword": "Masquer le mot de passe",
+      "hiddenCheckbox": "Ce réseau est masqué (ne diffuse pas son SSID)",
+      "notice": "Les invités peuvent pointer l'appareil photo de leur smartphone pour se connecter sans taper aucun mot de passe."
+    },
+    "location": {
+      "lat": "Latitude (-90 à 90)",
+      "lng": "Longitude (-180 à 180)",
+      "useGPS": "Utiliser ma position GPS",
+      "locating": "Localisation en cours...",
+      "previewMap": "Aperçu sur Google Maps",
+      "pickLandmark": "Ou choisir un lieu célèbre :",
+      "landmarks": {
+        "paris": "Paris (Tour Eiffel)",
+        "ny": "New York (Times Sq)",
+        "tokyo": "Tokyo (Shibuya)",
+        "london": "Londres (Big Ben)"
+      }
+    },
+    "vcard": {
+      "firstName": "Prénom",
+      "lastName": "Nom",
+      "company": "Entreprise / Organisation",
+      "title": "Poste / Fonction",
+      "phone": "Numéro de téléphone",
+      "email": "Adresse e-mail",
+      "website": "Site web ou portfolio"
+    }
+  },
+  "customization": {
+    "title": "Personnalisation & Design",
+    "subtitle": "Ajustez les couleurs, le logo central, la taille et la résilience du scan",
+    "reset": "Réinitialiser",
+    "colorPresets": "Palettes prédéfinies",
+    "fgColor": "Premier plan (Code QR)",
+    "fgHelper": "Assurez un bon contraste avec l'arrière-plan.",
+    "bgColor": "Arrière-plan",
+    "bgHelper": "Prend en charge le blanc, les couleurs unies ou le transparent.",
+    "clearTransp": "Transparent",
+    "transparent": "Transparent",
+    "centerLogo": "Logo ou icône centrale",
+    "removeLogo": "Supprimer le logo",
+    "uploadCustom": "Importer une image",
+    "logoRatio": "Taille relative du logo : {{val}}%",
+    "recommendedRatio": "Recommandé 20-25%",
+    "excavate": "Évider l'espace sous le logo (évite le débordement des modules QR)",
+    "errorResilience": "Correction d'erreur (Résilience)",
+    "displaySize": "Taille d'affichage : {{val}}px",
+    "compact": "Compact (180px)",
+    "standard": "Standard (280px)",
+    "large": "Grand (450px)",
+    "quietZone": "Marge de sécurité : {{val}} blocs",
+    "none": "0 (Aucune)",
+    "recMargin": "2 (Recommandée)",
+    "stdMargin": "4 (Standard)",
+    "errorLevels": {
+      "L": { "name": "Faible (7%)", "desc": "Idéal pour données simples et scans rapides sans logo" },
+      "M": { "name": "Moyen (15%)", "desc": "Équilibre standard entre densité et tolérance aux erreurs" },
+      "Q": { "name": "Quartile (25%)", "desc": "Recommandé en cas d'ajout d'un petit logo au centre" },
+      "H": { "name": "Élevé (30%)", "desc": "Résilience maximale. Indispensable pour logos et affichage extérieur" }
+    },
+    "presets": {
+      "classic": "Monochrome Classique",
+      "linearDark": "Linear Sombre",
+      "midnight": "Minuit Électrique",
+      "stripe": "Stripe Indigo",
+      "emerald": "Émeraude Minimal",
+      "sunset": "Coucher de Soleil",
+      "cyberpunk": "Cyberpunk Ambre",
+      "ocean": "Océan Cyan"
+    },
+    "logos": {
+      "none": "Aucun",
+      "web": "Web",
+      "wifi": "Wi-Fi",
+      "mail": "E-mail",
+      "qrify": "Emblème QRify"
+    }
+  },
+  "preview": {
+    "title": "Aperçu QR en direct",
+    "subtitle": "Simulation de lecture en temps réel",
+    "emptyTitle": "Votre code QR apparaîtra ici",
+    "emptyDesc": "Renseignez les champs à gauche pour voir la génération interactive instantanée.",
+    "exportQuality": "Qualité d'exportation :",
+    "downloadPNG": "Télécharger PNG",
+    "downloadSVG": "Télécharger SVG",
+    "copyImage": "Copier l'image",
+    "copiedImage": "Copié !",
+    "copyText": "Copier le texte",
+    "copiedText": "Copié !",
+    "save": "Enregistrer",
+    "scannability": {
+      "optimal": "Lisibilité optimale",
+      "optimalDesc": "Contraste élevé, densité idéale. Scan instantané.",
+      "lowContrast": "Avertissement contraste faible",
+      "lowContrastDesc": "Les couleurs peuvent être difficiles à lire sur certains appareils. Augmentez le contraste.",
+      "recommendHigher": "Augmentation de la correction conseillée",
+      "recommendHigherDesc": "Un logo central masque une partie des modules. Choisissez le niveau Q (25%) ou H (30%).",
+      "dense": "Code QR dense",
+      "denseDesc": "Beaucoup de données encodées. Prévoyez une impression à plus grande échelle."
+    }
+  },
+  "history": {
+    "title": "Historique & Archives QR",
+    "subtitle": "Consultez, téléchargez et réutilisez vos codes QR précédemment générés.",
+    "savedCount": "Codes enregistrés :",
+    "searchPlaceholder": "Rechercher par titre, type ou contenu...",
+    "allTypes": "Tous les types",
+    "clear": "Effacer",
+    "emptyTitle": "Aucun code QR dans l'historique",
+    "emptyDesc": "Les codes que vous générez ou téléchargez sont automatiquement enregistrés ici pour un accès rapide.",
+    "noResultsTitle": "Aucun résultat trouvé",
+    "noResultsDesc": "Essayez de modifier votre terme de recherche ou sélectionnez un autre type.",
+    "reuse": "Réutiliser",
+    "copyTitle": "Copier le contenu",
+    "deleteTitle": "Supprimer cet enregistrement",
+    "clearConfirmTitle": "Effacer tout l'historique ?",
+    "clearConfirmDesc": "Cela supprimera définitivement les {{count}} codes QR enregistrés dans ce navigateur. Cette action est irréversible.",
+    "cancel": "Annuler",
+    "confirmClear": "Confirmer l'effacement",
+    "loadInGenerator": "Charger dans le générateur",
+    "done": "Fermer",
+    "recently": "Récemment"
+  },
+  "guide": {
+    "title": "Bonnes pratiques & Guide de numérisation",
+    "subtitle": "Tout ce qu'il faut savoir sur le contraste des couleurs, la résilience et l'impression haute qualité.",
+    "c1Title": "Maintenir un contraste élevé",
+    "c1Desc": "Les capteurs optiques détectent la différence de luminosité entre les modules clairs et sombres. Utilisez toujours un premier plan foncé sur fond clair ou vice-versa. Évitez les combinaisons peu contrastées comme le jaune sur blanc ou le gris foncé sur noir.",
+    "c1Tip1": "Le premier plan doit avoir un rapport de contraste d'au moins 4:1 avec l'arrière-plan.",
+    "c1Tip2": "Les fonds transparents s'affichent parfaitement sur du papier blanc ou des écrans lumineux.",
+    "c2Title": "Comprendre les niveaux de correction",
+    "c2Desc": "Les codes QR utilisent la correction d'erreur Reed-Solomon pour restaurer les modules endommagés ou masqués.",
+    "c2Tip1": "Niveau L (7%) : Idéal pour les URL courtes et textes simples avec une densité minimale.",
+    "c2Tip2": "Niveau M (15%) : Le standard pour la plupart des supports de communication et sites web.",
+    "c2Tip3": "Niveau Q (25%) : Fortement recommandé dès que vous intégrez un petit logo au centre.",
+    "c2Tip4": "Niveau H (30%) : Redondance maximale. Indispensable si un logo couvre 30% du centre ou pour l'affichage en extérieur.",
+    "c3Title": "Logos centraux & Évidement",
+    "c3Desc": "Intégrer le logo de votre marque renforce la confiance, mais gardez en tête qu'il masque des données utiles.",
+    "c3Tip1": "Conservez une taille de logo inférieure à 25% de la largeur totale du code QR.",
+    "c3Tip2": "Laissez l'option d'évidement active pour créer une marge propre autour du logo.",
+    "c3Tip3": "Testez toujours le scan avec l'appareil photo iOS et Android Google Lens avant toute impression en série.",
+    "c4Title": "Dimensions & Résolution d'impression",
+    "c4Desc": "Règle d'or pour l'impression physique : la distance de lecture maximale doit être d'environ 10 fois la largeur du code QR.",
+    "c4Tip1": "Cartes de visite (lecture à 15-30 cm) : Au minimum 2 cm x 2 cm.",
+    "c4Tip2": "Affiches / Flyers (lecture à 1 m) : Au minimum 10 cm x 10 cm.",
+    "c4Tip3": "Exportez en résolution 2x ou 4x pour un rendu professionnel à 300 DPI chez l'imprimeur."
+  },
+  "validation": {
+    "urlRequired": "Veuillez saisir une URL ou une adresse web.",
+    "urlInvalid": "Veuillez saisir une adresse web valide (ex : exemple.fr ou https://exemple.fr)",
+    "textRequired": "Veuillez renseigner un texte.",
+    "textTooLong": "Le texte est trop long (maximum 2 000 caractères pour une numérisation optimale).",
+    "emailRequired": "L'adresse e-mail du destinataire est requise.",
+    "emailInvalid": "Veuillez saisir une adresse e-mail valide (ex : nom@domaine.fr)",
+    "phoneRequired": "Le numéro de téléphone est obligatoire.",
+    "phoneTooShort": "Le numéro de téléphone semble trop court.",
+    "waRequired": "Le numéro de téléphone avec indicatif pays est obligatoire.",
+    "waInvalid": "Indiquez l'indicatif sans le symbole + ni zéro initial (ex : 33612345678)",
+    "ssidRequired": "Le nom du réseau (SSID) est obligatoire.",
+    "passRequired": "Le mot de passe est obligatoire pour les réseaux protégés.",
+    "wpaLength": "Les clés WPA/WPA2/WPA3 doivent comporter au moins 8 caractères.",
+    "latRequired": "Une latitude valide entre -90 et 90 est requise.",
+    "lngRequired": "Une longitude valide entre -180 et 180 est requise.",
+    "vcardNameRequired": "Indiquez au moins un nom de contact ou une entreprise.",
+    "vcardContactRequired": "Indiquez au moins un numéro de téléphone ou un e-mail.",
+    "geoNotSupported": "La géolocalisation n'est pas prise en charge par votre navigateur",
+    "geoError": "Impossible d'obtenir la position : {{err}}"
+  },
+  "toasts": {
+    "pngSuccess": "Image PNG haute résolution téléchargée avec succès !",
+    "svgSuccess": "Fichier vectoriel SVG téléchargé avec succès !",
+    "copyImageSuccess": "Image QR copiée dans le presse-papier ! Prête à coller.",
+    "copyImageError": "Impossible de copier l'image directement. Essayez de la télécharger en PNG.",
+    "copyTextSuccess": "Contenu copié dans le presse-papier.",
+    "copyTextError": "Échec de la copie du contenu.",
+    "saveSuccess": "Code QR sauvegardé dans votre historique !",
+    "enterDetailsError": "Veuillez saisir des informations valides avant de télécharger.",
+    "noContentError": "Aucun contenu à copier.",
+    "resetSuccess": "Paramètres de personnalisation réinitialisés par défaut.",
+    "newQRReady": "Prêt pour un nouveau code QR !",
+    "loadedIntoGenerator": "\"{{title}}\" a été chargé dans le générateur",
+    "historyCleared": "Tout l'historique a été effacé",
+    "removedFromHistory": "Élément retiré de l'historique"
+  },
+  "footer": {
+    "text": "QRify Studio • Générateur QR moderne côté client • Conçu avec React, Vite & Tailwind CSS"
+  }
+}

@@ -1,0 +1,325 @@
+{
+  "common": {
+    "success": "Success",
+    "error": "Error",
+    "notice": "Notice",
+    "required": "*",
+    "clear": "Clear",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "done": "Done",
+    "close": "Close"
+  },
+  "navbar": {
+    "studioBadge": "STUDIO",
+    "subtitle": "Professional QR Code Generator",
+    "generator": "Generator",
+    "history": "History",
+    "guide": "Guide & Tips",
+    "newQR": "New QR",
+    "switchThemeLight": "Switch to light mode",
+    "switchThemeDark": "Switch to dark mode",
+    "language": "Language"
+  },
+  "sidebar": {
+    "workspace": "Workspace",
+    "generator": "QR Generator",
+    "generatorDesc": "Create & style codes",
+    "history": "Saved History",
+    "historyDesc": "Manage past creations",
+    "guide": "Scannability Guide",
+    "guideDesc": "Print & error levels",
+    "privateBadge": "100% Private & Local",
+    "privateDesc": "All QR codes and credentials (e.g. Wi-Fi passwords) are encoded strictly inside your browser. No data is ever sent to any remote server.",
+    "engineStatus": "Client-side engine v1.0",
+    "menu": "QRify Menu",
+    "close": "Close"
+  },
+  "dashboard": {
+    "title": "Create QR Code",
+    "subtitle": "Select a type, enter your content, customize the design, and export in vector SVG or high-resolution PNG."
+  },
+  "types": {
+    "url": {
+      "label": "Website URL",
+      "shortLabel": "URL",
+      "description": "Open a website, landing page, or online portfolio"
+    },
+    "text": {
+      "label": "Plain Text",
+      "shortLabel": "Text",
+      "description": "Display any raw text message, code, or memo"
+    },
+    "email": {
+      "label": "Email",
+      "shortLabel": "Email",
+      "description": "Pre-compose an email with subject and message"
+    },
+    "phone": {
+      "label": "Phone Call",
+      "shortLabel": "Phone",
+      "description": "Prompt a direct phone call when scanned"
+    },
+    "whatsapp": {
+      "label": "WhatsApp",
+      "shortLabel": "WhatsApp",
+      "description": "Direct WhatsApp chat with an optional pre-filled text"
+    },
+    "wifi": {
+      "label": "Wi-Fi Network",
+      "shortLabel": "Wi-Fi",
+      "description": "Instantly connect phones to your Wi-Fi without typing passwords"
+    },
+    "location": {
+      "label": "Location",
+      "shortLabel": "Location",
+      "description": "Open Google Maps or GPS coordinates on mobile"
+    },
+    "vcard": {
+      "label": "Contact Card (vCard)",
+      "shortLabel": "vCard",
+      "description": "Save full contact information directly to phone address book"
+    }
+  },
+  "tabs": {
+    "contentType": "QR Code Content Type",
+    "enterDetails": "1. Enter Details",
+    "designStyling": "2. Design & Styling"
+  },
+  "forms": {
+    "url": {
+      "label": "Website or URL",
+      "placeholder": "https://example.com/portfolio",
+      "quickExamples": "Quick examples:",
+      "testLink": "Test URL in new tab"
+    },
+    "text": {
+      "label": "Plain Text Content",
+      "placeholder": "Type your memo, promotional code, instructions, or raw text message here...",
+      "chars": "chars",
+      "clearTitle": "Clear text",
+      "promoCoupon": "Promo Coupon",
+      "orderReceipt": "Order Receipt",
+      "meetingMemo": "Meeting Memo"
+    },
+    "email": {
+      "recipient": "Recipient Email",
+      "recipientPlaceholder": "support@company.com",
+      "subject": "Subject Line",
+      "subjectPlaceholder": "Product Inquiry / Feedback",
+      "body": "Pre-filled Message Body",
+      "bodyPlaceholder": "Hi team, I would like to learn more about your services..."
+    },
+    "phone": {
+      "label": "Phone Number",
+      "placeholder": "+1 (555) 234-5678",
+      "prefixes": "Country prefixes:",
+      "callNotice": "When someone scans this QR code with their mobile camera, their device will prompt them directly to place a call to this number."
+    },
+    "whatsapp": {
+      "label": "WhatsApp Number (with Country Code)",
+      "placeholder": "15551234567 (Digits only, no leading +)",
+      "formatNotice": "Format: Country code followed by phone number (e.g., 1 for US, 33 for France, 44 for UK).",
+      "message": "Pre-filled Message (Optional)",
+      "messagePlaceholder": "Hello! I am contacting you regarding your products.",
+      "messageNotice": "This message will automatically open pre-typed in the user's WhatsApp chat."
+    },
+    "wifi": {
+      "ssid": "Network Name (SSID)",
+      "ssidPlaceholder": "e.g. Guest-Office-5G",
+      "security": "Security / Encryption",
+      "wpa": "WPA / WPA2 / WPA3 (Default)",
+      "wep": "WEP (Older)",
+      "open": "None (Open Network)",
+      "password": "Network Password",
+      "openPlaceholder": "Open network (no password)",
+      "showPassword": "Show password",
+      "hidePassword": "Hide password",
+      "hiddenCheckbox": "This network is hidden (does not broadcast SSID)",
+      "notice": "Guests can point their iOS or Android camera at this code to connect instantly without typing any network password."
+    },
+    "location": {
+      "lat": "Latitude (-90 to 90)",
+      "lng": "Longitude (-180 to 180)",
+      "useGPS": "Use My GPS Location",
+      "locating": "Locating...",
+      "previewMap": "Preview on Google Maps",
+      "pickLandmark": "Or pick a landmark:",
+      "landmarks": {
+        "paris": "Paris (Eiffel)",
+        "ny": "New York (Times Sq)",
+        "tokyo": "Tokyo (Shibuya)",
+        "london": "London (Big Ben)"
+      }
+    },
+    "vcard": {
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "company": "Company / Organization",
+      "title": "Job Title",
+      "phone": "Phone Number",
+      "email": "Email Address",
+      "website": "Portfolio or Website"
+    }
+  },
+  "customization": {
+    "title": "Customization & Styling",
+    "subtitle": "Tailor colors, center logo, size, and scanning resilience",
+    "reset": "Reset",
+    "colorPresets": "Color Presets",
+    "fgColor": "Foreground (QR Code)",
+    "fgHelper": "Ensure good contrast with background.",
+    "bgColor": "Background",
+    "bgHelper": "Supports white, solid tones, or transparent.",
+    "clearTransp": "Clear (Transp.)",
+    "transparent": "Transparent",
+    "centerLogo": "Center Logo / Icon",
+    "removeLogo": "Remove Logo",
+    "uploadCustom": "Upload Custom Image",
+    "logoRatio": "Logo Size Ratio: {{val}}%",
+    "recommendedRatio": "Recommended 20-25%",
+    "excavate": "Clear space underneath logo (prevents QR modules bleeding through)",
+    "errorResilience": "Error Correction Resilience",
+    "displaySize": "Display Size: {{val}}px",
+    "compact": "Compact (180px)",
+    "standard": "Standard (280px)",
+    "large": "Large (450px)",
+    "quietZone": "Quiet Zone (Margin): {{val}} blocks",
+    "none": "0 (None)",
+    "recMargin": "2 (Recommended)",
+    "stdMargin": "4 (Standard)",
+    "errorLevels": {
+      "L": { "name": "Low (7%)", "desc": "Best for simple data and clean scans with no logo" },
+      "M": { "name": "Medium (15%)", "desc": "Standard balance of density and error resilience" },
+      "Q": { "name": "Quartile (25%)", "desc": "Recommended when placing small logos in the center" },
+      "H": { "name": "High (30%)", "desc": "Maximum resilience. Best for custom logos and outdoor prints" }
+    },
+    "presets": {
+      "classic": "Classic Monochrome",
+      "linearDark": "Linear Dark",
+      "midnight": "Midnight Electric",
+      "stripe": "Stripe Indigo",
+      "emerald": "Emerald Minimal",
+      "sunset": "Sunset Rose",
+      "cyberpunk": "Cyberpunk Amber",
+      "ocean": "Ocean Cyan"
+    },
+    "logos": {
+      "none": "None",
+      "web": "Web",
+      "wifi": "Wi-Fi",
+      "mail": "Email",
+      "qrify": "QRify Mark"
+    }
+  },
+  "preview": {
+    "title": "Live QR Preview",
+    "subtitle": "Real-time scanner simulation",
+    "emptyTitle": "Your QR will appear here",
+    "emptyDesc": "Enter content in the fields on the left to see instant, interactive QR rendering.",
+    "exportQuality": "Export Quality:",
+    "downloadPNG": "Download PNG",
+    "downloadSVG": "Download SVG",
+    "copyImage": "Copy Image",
+    "copiedImage": "Copied!",
+    "copyText": "Copy Text",
+    "copiedText": "Copied!",
+    "save": "Save",
+    "scannability": {
+      "optimal": "Optimal Scannability",
+      "optimalDesc": "High contrast, clean matrix density. Scans instantly.",
+      "lowContrast": "Low Contrast Warning",
+      "lowContrastDesc": "Colors may not scan reliably on older smartphone cameras. Increase contrast.",
+      "recommendHigher": "Recommend Higher Error Correction",
+      "recommendHigherDesc": "A center logo covers QR modules. Set error correction to Q (25%) or H (30%).",
+      "dense": "Dense QR Code",
+      "denseDesc": "Lots of encoded text. Ensure you print or display at a larger size."
+    }
+  },
+  "history": {
+    "title": "QR History & Archives",
+    "subtitle": "Access, download, and reuse previously generated QR codes.",
+    "savedCount": "Saved Codes:",
+    "searchPlaceholder": "Search history by title, type, or content...",
+    "allTypes": "All Types",
+    "clear": "Clear",
+    "emptyTitle": "No QR codes in history yet",
+    "emptyDesc": "Codes you generate or download are automatically saved here so you can preview, reuse, and re-export them anytime.",
+    "noResultsTitle": "No matching results",
+    "noResultsDesc": "Try clearing your search query or picking another filter type.",
+    "reuse": "Reuse",
+    "copyTitle": "Copy content",
+    "deleteTitle": "Delete this record",
+    "clearConfirmTitle": "Clear all QR history?",
+    "clearConfirmDesc": "This will permanently delete all {{count}} saved QR codes from this browser. This action cannot be undone.",
+    "cancel": "Cancel",
+    "confirmClear": "Confirm Clear",
+    "loadInGenerator": "Load in Generator",
+    "done": "Done",
+    "recently": "Recently"
+  },
+  "guide": {
+    "title": "QR Best Practices & Scannability Guide",
+    "subtitle": "Everything you need to know about color contrast, error resilience, and high-quality printing.",
+    "c1Title": "Maintain Strong Color Contrast",
+    "c1Desc": "Optical QR scanners work by sensing contrast between light and dark modules. Always use a dark foreground on a light background or vice-versa. Avoid low contrast combinations like light yellow on white or dark grey on black.",
+    "c1Tip1": "Foreground should have at least 4:1 contrast ratio against the background.",
+    "c1Tip2": "Transparent backgrounds work best on white paper or light digital screens.",
+    "c2Title": "Error Correction Levels Explained",
+    "c2Desc": "QR codes use Reed-Solomon error correction to recover damaged or occluded modules.",
+    "c2Tip1": "Level L (7%): Best for short URLs and simple text where code density should be minimal.",
+    "c2Tip2": "Level M (15%): Standard for most marketing materials and websites.",
+    "c2Tip3": "Level Q (25%): Highly recommended whenever embedding small center logos.",
+    "c2Tip4": "Level H (30%): Maximum redundancy. Required if you cover up to 30% of the center with a logo or print outdoors.",
+    "c3Title": "Center Logos & Excavation",
+    "c3Desc": "Adding brand logos enhances trust, but remember that the logo covers QR data modules.",
+    "c3Tip1": "Always keep logo size under 25% of the total QR width.",
+    "c3Tip2": "Leave 'Excavate' enabled to provide a clean buffer around your logo.",
+    "c3Tip3": "Always test-scan with both iOS Camera and Android Google Lens before mass printing.",
+    "c4Title": "Print Sizing & Resolution",
+    "c4Desc": "A good rule of thumb for physical prints: Scanning distance should be at most 10 times the width of the QR code.",
+    "c4Tip1": "Business cards (viewed at 15-30cm): At least 2cm x 2cm (0.8\" x 0.8\").",
+    "c4Tip2": "Posters / Flyers (viewed at 1m): At least 10cm x 10cm (4\" x 4\").",
+    "c4Tip3": "Export at 2x or 4x resolution for commercial 300 DPI print shops."
+  },
+  "validation": {
+    "urlRequired": "Please enter a URL or website address.",
+    "urlInvalid": "Please enter a valid website address (e.g. example.com or https://example.com)",
+    "textRequired": "Please enter some text content.",
+    "textTooLong": "Text is too long (max 2,000 characters for optimal scanning).",
+    "emailRequired": "Recipient email address is required.",
+    "emailInvalid": "Please enter a valid email address (e.g. name@domain.com)",
+    "phoneRequired": "Phone number is required.",
+    "phoneTooShort": "Phone number seems too short.",
+    "waRequired": "Phone number with country code is required.",
+    "waInvalid": "Include country code without + or leading zero (e.g. 15551234567)",
+    "ssidRequired": "Network name (SSID) is required.",
+    "passRequired": "Password is required for encrypted networks.",
+    "wpaLength": "WPA/WPA2/WPA3 passwords must be at least 8 characters long.",
+    "latRequired": "Valid latitude between -90 and 90 is required.",
+    "lngRequired": "Valid longitude between -180 and 180 is required.",
+    "vcardNameRequired": "Provide either a contact name or company name.",
+    "vcardContactRequired": "Provide at least a phone number or email.",
+    "geoNotSupported": "Geolocation is not supported by your browser",
+    "geoError": "Unable to retrieve location: {{err}}"
+  },
+  "toasts": {
+    "pngSuccess": "High-resolution PNG downloaded successfully!",
+    "svgSuccess": "Vector SVG downloaded successfully!",
+    "copyImageSuccess": "QR image copied to clipboard! Ready to paste into chat or docs.",
+    "copyImageError": "Could not copy image directly. Try downloading PNG instead.",
+    "copyTextSuccess": "Content copied to clipboard.",
+    "copyTextError": "Failed to copy content.",
+    "saveSuccess": "Saved QR code to your history!",
+    "enterDetailsError": "Please enter valid content before downloading.",
+    "noContentError": "No QR code content to copy.",
+    "resetSuccess": "Customization settings reset to defaults.",
+    "newQRReady": "Ready for a new QR code!",
+    "loadedIntoGenerator": "Loaded \"{{title}}\" into generator",
+    "historyCleared": "All history cleared",
+    "removedFromHistory": "Removed from history"
+  },
+  "footer": {
+    "text": "QRify Studio • Modern Client-Side QR Generator • Built with React, Vite & Tailwind CSS"
+  }
+}
